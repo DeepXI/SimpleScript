@@ -1,0 +1,7 @@
+_G.Activated = true
+
+while _G.Activated do
+    wait(0.001)
+    local skd = game.Players.LocalPlayer
+    skd.Character.Humanoid.WalkSpeed = 36  --< Put Your Value Here To Speed Up!  
+end
